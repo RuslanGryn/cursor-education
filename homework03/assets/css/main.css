@@ -1,7 +1,6 @@
 .site_container {
-    display: inline-block;
     background-color: antiquewhite;
-
+    display: inline-block;
     padding: 228px 24px 212px 24px;
     justify-content: center;
     align-items: center ;
@@ -10,22 +9,20 @@
 
 .cookie_banner_1 {
     display: flex;
-    background: #0B2239;
-
     width: 1200px;
     height: 40px;
     padding: 16px 120px;
     justify-content: center;
     align-items: center;
+    background: #0B2239;
 }
 
 
 .cookie_banner_1_p {
     display: flex;
-    color: #FFF;
-
     flex-direction: column;
     flex: 1 0 0;
+    color: #FFF;
     font-size: 13px;
     font-family: Inter;
     line-height: 20px;
@@ -35,14 +32,12 @@
 
 .cookie_banner_1_a {
     display: flex;
-    color: #4AD295;
-
     padding: 8px 10px;
     padding-left: 32px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 2px; 
-    
+    color: #4AD295;
     font-size: 12px;
     font-family: Inter;
     font-weight: 600;
@@ -52,13 +47,12 @@
 
 .cookie_banner_1_button {
     display: flex;
-    background: #4AD295;
-    color: #FFF;
-
     padding: 8px 10px;
     align-items: flex-start;
     gap: 10px;
-    border-radius: 2px;  
+    border-radius: 2px;
+    background: #4AD295;
+    color: #FFF;
     font-size: 12px;
     font-family: Inter;
     font-weight: 600;
@@ -68,13 +62,12 @@
 
 .cookie_banner_2 {
     display: flex;
-    background: #2B2627;
-
     width: 749px;
     height: 52px;
     padding: 16px 345.5px;
     justify-content:space-around;
     align-items: center;
+    background: #2B2627;
     box-shadow: 0px 0px 1px 0px rgba(96, 96, 96, 0.10), 0px 12px 24px -6px rgba(96, 96, 96, 0.15);
     margin-top: 24px;
     margin-bottom: 72px;
@@ -82,10 +75,9 @@
 
 .cookie_banner_2_p {
     color: #FFF;
-
     font-size: 13px;
     font-family: Inter;
-    line-height: 20px;  
+    line-height: 20px; 
 }
 
 .cookie_banner_2_a {
@@ -94,24 +86,22 @@
 
 .cookie_banner_3 {
     display: flex;
-    background: #FFF;
-
     width: 560px;
     padding: 16px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     border-radius: 16px;
+    background: #FFF;
     box-shadow: 0px 0px 1px 0px rgba(96, 96, 96, 0.10), 0px 12px 24px -6px rgba(96, 96, 96, 0.15);
     margin-bottom: 24px;
 }
 
 .cookie_banner_3_p_1 {
     display: inline-block;
-    color: #0D0C22;
-
     flex-direction: column;
     flex: 1 0 0;
+    color: #0D0C22;
     font-size: 14px;
     font-family: Inter;
     line-height: 20px;
@@ -119,15 +109,12 @@
 
 .cookie_banner_3_a {
     color: #EA4C89;
-
     text-decoration-line: none;
 }
 
 .cookie_banner_3_b_1 {
     display: flex;
     color: #0D0C22;
-    background: rgba(13, 12, 34, 0.05);
-
     font-size: 12px;
     font-family: Inter;
     font-weight: 500;
@@ -136,20 +123,21 @@
     align-items: flex-start;
     gap: 10px;
     border-radius: 8px;
+    background: rgba(13, 12, 34, 0.05);
     cursor: pointer;
     border-style: none;
-}   
+}
+
 .cookie_banner_3_b_2 {
     display: flex;
-    background: #EA4C89;
-    color: #FFF;
-
     padding: 4px 10px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 8px;
     border-style: none;
     cursor: pointer;
+    background: #EA4C89;
+    color: #FFF;
     font-size: 12px;
     font-family: Inter;
     font-style: normal;
@@ -157,26 +145,24 @@
     line-height: 20px;
 }
 
-.cookie_4 {
+.cookie_banner_4 {
     display: flex;
-    background: #26262B;
-
     width: 560px;
     padding: 12px 16px;
     justify-content: space-around;
     align-items: center;
     gap: 10px;
     border-radius: 10px;
+    background: #26262B;
     box-shadow: 0px 0px 1px 0px rgba(96, 96, 96, 0.10), 0px 12px 24px -6px rgba(96, 96, 96, 0.15);
     margin-bottom: 72px;
 }
 
 .cookie_banner_4_p {
     display: inline-block;
-    color: #FFF;
-
     flex-direction: column;
     flex: 1 0 0;
+    color: #FFF;
     font-size: 12px;
     font-family: 'Lato';
     font-style: normal;
@@ -186,23 +172,333 @@
 
 .cookie_banner_4_a {
     color: #E6842E;
-
     text-decoration-line: none;
 }
 
 .cookie_banner_4_b {
     display: flex;
-    background: #FFF;
-    color: #26262B;
-
     padding: 4px 10px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 8px;
+    background: #FFF;
+    color: #26262B;
     font-size: 12px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
     cursor: pointer;
+}
+
+.wrapper_1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 72px;
+}
+
+.cookie_banner_5 {
+    display: flex;
+    width: 360px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+    border-radius: 6px;
+    background: rgba(28, 37, 64, 0.95);
+    box-shadow: 0px 0px 1px 0px rgba(96, 96, 96, 0.10), 0px 12px 24px -6px rgba(96, 96, 96, 0.15);
+    padding: 24px 24px;
+}
+
+.cookie_banner_5_p_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.cookie_banner_5_p_2 {
+    display: inline-block;
+    align-self: stretch;
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 16px;
+            
+}
+
+.cookie_banner_5_a {
+    text-decoration-line: underline;
+    color: #FFF;
+}
+
+.cookie_banner_5_p_3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.cookie_banner_5_p_3_1 {
+    display: flex;
+    width: 160px;
+    flex-direction: column;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cookie_banner_5_b {
+    display: flex;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: #09B3AF;
+    box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.30);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.cookie_banner_6 {
+    display: flex;
+    width: 360px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 0px 1px 0px rgba(96, 96, 96, 0.10), 0px 12px 24px -6px rgba(96, 96, 96, 0.15);
+}
+
+.cookie_banner_6_p_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    color: #0F181D;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.cookie_banner_6_p_2 {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;    
+    color: #687F8C;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.cookie_banner_6_b {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.cookie_banner_6_b_1 {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 6px;
+    background: #EAF0F4;
+    box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.30);
+    cursor: pointer;
+    flex-direction: column;
+    color: #687F8C;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-style: none;
+}
+.cookie_banner_6_b_2 {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 6px;
+    background: #40C1A7;
+    box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.30);
+    flex-direction: column;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-style: none;
+    cursor: pointer;
+}
+
+.wrapper_2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.cookie_banner_7 {
+    display: flex;
+    width: 320px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.88%, rgba(255, 255, 255, 0.15) 100%), #FFF;
+    box-shadow: 0px 8px 32px 0px rgba(10, 3, 89, 0.10);
+}
+
+.cookie_banner_7_p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.cookie_banner_7_p_1 {
+    color: #15295A;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px;
+}
+
+.cookie_banner_7_p_2 {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #15295A;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.cookie_banner_7_b {
+    display: flex;
+    padding: 10px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 43px;
+    background: #4A7EFF;
+    border-style: none;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.cookie_banner_8 {
+    display: flex;
+    width: 320px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 8px 32px 0px rgba(10, 3, 89, 0.10);
+}
+
+.cookie_banner_8_p_1 {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    color: #000;
+    font-size: 14px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 16px 16px;
+}
+
+.cookie_banner_8_b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+.cookie_banner_8_p_2 {
+    color: #66F;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0px 16px;
+    margin-bottom: 16px;
+        
+}
+
+.cookie_banner_8_a {
+    text-decoration: none;
+    color: #66f;
+}
+
+.cookie_banner_8_b_1 {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #66F;
+    border-style: none;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 16px;
+    margin-bottom: 16px;
 }
