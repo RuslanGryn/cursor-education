@@ -19,7 +19,6 @@
     max-width: 445px;
     float: left;
     display: inline; 
-    
 }
 
 .header__title {
@@ -68,7 +67,6 @@
     top: 22px;
 }
 
-
 .header_box_2_img_2 {
     position: absolute;
     opacity: 0.5;
@@ -79,20 +77,153 @@
 .header_box_2_img_3 {
     position: absolute;
 
-}  
+} 
+.main{
+    height: 500px;
+} 
  
 .contact {
     padding-top: 117px;
-    /* padding-bottom: 78px; */
+    padding-bottom: 78px; 
 }
 
 .contact_box-left {
     max-width: 445px;
-    padding-bottom: 223px;
     float: left;
-    margin-right: 125px;
 }
 
+ .contact_box-right {
+    float: right;
+}  
+
 .contact__title {
+    color: #000;
+    font-size: 36px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
     margin-bottom: 71px;
 }
+
+.contact p {
+    color: #000;
+    text-align: justify;
+    font-size: 14px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    width: 434px;
+    margin-right: 100px;
+}
+
+.contact_box-form {
+    max-width: 540px;
+    margin-left: auto;
+}
+
+.first, .last, .phone, .select {
+    border-radius: 6px;
+    border: 1px solid var(--gray-1, #333);
+    height: 41px;
+    margin-bottom: 24px;
+    
+}
+
+.first,.last {
+    width: 252px;
+    padding-left: 20px;
+}
+
+input,
+select {
+    margin-bottom: 24px;
+}
+
+.first {
+    margin-right: 30px;
+}
+
+.phone,
+.select {
+    width: 540px;
+    padding-left: 20px;
+}
+
+.button {
+    width: 160px;
+    height: 50px;
+    border-style: none;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1.5px solid #ED4C5C;
+    background: #ED4C5C;
+    color: #FFF;
+    font-size: 14px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.colum {
+    width: 25%;
+    float: left;
+}
+
+.footer {
+    position: relative;
+}
+
+footer h6 {
+    color: #101010;
+    font-size: 18px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 28px;
+}
+
+footer p {
+    color: #101010;
+    font-size: 12px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+footer ul {
+    color: #000;
+    font-size: 12px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+    list-style: none;
+}
+
+footer a {
+    color: #101010;
+    font-size: 12px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.social_container img {
+    padding: 10px;
+}
+
+.copyright {
+    clear: both;
+    padding: 80px 0;
+}
+
+
+
