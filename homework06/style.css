@@ -177,7 +177,11 @@ body {
     z-index: -1;
 }
 
-/* Section Sorage */
+/* Section Storage */
+
+.section__main-1 {
+    margin-bottom: 100px;
+}
 
 .storage {
     display: flex;
@@ -348,7 +352,7 @@ body {
     flex-wrap: wrap;
 }
 
-.text_testimols h4 {
+.text_testimonials h4 {
     color: var(--2, #212353);
     font-family: Avenir;
     font-size: 18px;
@@ -358,7 +362,7 @@ body {
     padding-top: 25px;
 }
 
-.text_testimols a {
+.text_testimonials a {
     color: var(--3, #9C69E2);
     font-family: Avenir;
     font-size: 14px;
@@ -368,7 +372,7 @@ body {
 
 }
 
-.text_testimols p {
+.text_testimonials p {
     color: var(--1, #4B5D68);
     font-family: Avenir;
     font-size: 18px;
@@ -409,3 +413,111 @@ body {
 }
 
 /* Footer */
+
+.footer {
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFF 100%);
+    padding: 100px 0;
+}
+
+.container_footer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer_section_1 {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px; 
+    margin: 0;
+}
+
+.try_for {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 600px;
+    height: 101px; 
+}
+
+.buttons {
+     display: flex; 
+    align-self: center;
+    align-items: flex-end;
+    gap: 30px;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    margin-left: auto;
+   
+}
+
+.buttons a {
+    width: 170px;
+    height: 60px;
+    border-radius: 50px;
+    background: var(--3, #9C69E2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Avenir;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%;
+    padding: 5px;
+}
+
+
+.try_for h3 {
+    color: #212353;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 20px;
+}
+
+.try_for p {
+    color: var(--1, #4B5D68);
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%;
+}
+
+.buttons .pink_button {
+    border-radius: 50px;
+    background: var(--4, #F063B8);
+}
+
+.footer_section_2 {
+    display: flex;
+    width: 1200px; 
+    margin-top: 150px;
+}
+
+.data {
+    display: flex;
+    width: 335px;
+}
+
+.data_img {
+    display: flex;
+    width: 222px; 
+    gap: 20px;
+    flex-wrap: wrap;
+} 
+
+.head_data {
+    /* margin-top: auto;
+    margin-bottom: 0px; */
+}
+ 
+.logo_footer {
+    margin-left: 0px;
+    margin-right: auto;
+} 
