@@ -638,9 +638,8 @@ body {
 }
 
 .copyright {
-    display: flex;
     width: 1200px; 
-    justify-content: space-between;
+    
     color: var(--2, #212353);
     font-family: Avenir;
     font-size: 12px;
@@ -651,13 +650,12 @@ body {
 
 .copyright_text {
     display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
+    justify-content: space-between; 
+    /* align-items: center; */
     flex-wrap: wrap;
 
-    width: 360px;
-    flex-direction: column;
-
+    /* width: 360px; */
+   
 }
 
 
