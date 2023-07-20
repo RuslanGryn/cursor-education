@@ -11,7 +11,6 @@
     display: grid;
     gap: 50px;
     height: 100%;
-    /* grid-template-rows: 200px 200px; */
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     margin-bottom: 50px;
@@ -51,11 +50,10 @@ button {
     display: inline-flex;
     width: 494px;
     height: 92px;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    margin: 150px;
+    margin: 100px 150px 150px 420px;
     background-color: aquamarine;
 
     color: #FFF;
@@ -80,4 +78,14 @@ button::after {
 
 button:hover {
     background-color: #51e52f;
+}
+
+:before {
+    position: absolute;
+    left: -220px;
+}
+
+:after {
+    position: absolute;
+    right: -220px;
 }
