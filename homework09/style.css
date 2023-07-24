@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,:active {
+    outline: none;
+}
+
+a:focus,a:active {
+    outline: none;
+}
+
+nav,footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-size: 16px;
+} 
+
+/*--------------------*/
+/* Header */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 1440px;
+    min-height: 100%;
+}
+.header {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding-bottom: 163px;
+    position: relative;
+}
+.container {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 5px;
+}
+.header__ico {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    margin: 3rem 0 8rem 0;
+}
+.head__ico h2 {
+    color: #5282F0;
+    font-family: Product Sans;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: -0.48px;
+}
+.header__text h1 {
+    width: 60%;
+    color: var(--333333, #333);
+    font-family: Lato;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.32;
+    letter-spacing: 1.08px;
+    margin-bottom: 30px;
+}
+.header__text p {
+    color: var(--4-f-4-f-4-f, #4F4F4F);
+    font-family: Lato;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.44;
+    width: 45%;
+    margin-bottom: 50px;
+}
+.head__img {
+    position: absolute;
+    top: 0;
+    right: -290px;
+}
+.head__link a {
+    margin-right: 15px;
+}
