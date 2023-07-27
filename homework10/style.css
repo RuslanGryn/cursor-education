@@ -1,0 +1,165 @@
+body   {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 1440px;
+    height: 500px;
+    background: aliceblue;
+    position: relative;
+    padding: 10px;
+    background: url(img/Screenshot\ at\ Jul\ 27\ 17-09-33.png);
+}
+.wrapper {
+    width: 180px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-60%, -60%);
+
+}
+.stick {
+    width: 180px;
+    height: 10px;
+    background: blueviolet;
+    border-radius: 30px;
+    border: 1px solid rgb(126, 142, 149);
+    position: absolute;
+    animation: moving 3.5s infinite;
+    box-shadow:-1px -2px 2px 1px rgb(234, 55, 55);
+}
+.two {
+    width: 180px;
+    height: 10px;
+    background:red ;
+    border-radius: 30px;
+    position: absolute;
+    animation: moving2 3.3s infinite;
+}
+
+@keyframes moving2 {
+    0% {
+        left: 280px;
+    }
+    25% {
+        left: 5%;
+        transform: rotate(85deg);
+    }
+    50% {
+        left: 10%;
+    }
+    75% {
+        bottom: 30%;
+    }
+    100% {
+        left: 100px;
+    }
+}
+
+@keyframes moving {
+    0% {
+        right: 190px;
+    }
+    25% {
+        right: 20%;
+    }
+    50% {
+        right: 8%;
+        transform: rotate(-95deg);
+    }
+    75% {
+        bottom: 20%;
+    }
+    100% {
+        right: 90px;
+    }
+}
+.balance_wheel {
+    height: 400px;
+    width: 800px;
+    margin-top: 20px;
+    background-color: aquamarine;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+.balance_wheel div {
+    display: inline-block; 
+    height: 50px;
+    width: 50px;
+    background: rgb(101, 128, 215);
+    border-radius: 50%;
+    border: 0.5px solid #f9f7f7;
+}
+.balance_wheel div:first-child {
+    position: absolute;
+    left: 221px;
+    animation: left 4s infinite;
+    animation-delay: 4s;
+}
+
+@keyframes left {
+    0% {
+        left: 221px;
+    }
+
+    25% {
+        left: 0px;
+    }
+
+    50% {
+        left: 221px;
+    }
+
+    75% {
+        left: 221px;
+    }
+
+    100% {
+        left: 221px;
+    }
+}
+.balance_wheel div:last-child {
+    position: absolute;
+    right: 221px;
+    animation: right 4s infinite;
+}
+
+@keyframes right {
+    0% {
+        right: 221px;
+    }
+
+    25% {
+        right: 221px;
+    }
+
+    50% {
+        right: 221px;
+    }
+
+    75% {
+        right: 0px;
+    }
+
+    100% {
+        right: 221px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

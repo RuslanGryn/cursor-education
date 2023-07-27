@@ -151,3 +151,110 @@ body {
 .head__link a {
     margin-right: 15px;
 }
+
+.main__section-1 {
+    width: 1440px;
+    height: 592px;
+    margin-top: 109px;
+    background: url("./img/sect1_bg.png") bottom left no-repeat;
+}
+
+.container_bg {
+    background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.50);
+}
+
+.container_bg {
+    display: flex;
+    justify-content: space-between;
+    gap: 15%;
+    position: relative;
+    padding-top: 7rem;
+}
+
+.container_video {
+    display: flex;
+    width: 797px;
+    gap: 5rem;
+}
+
+.clubs {
+    padding-left: 10px;
+    width: 360px;
+    height: 218.057px;
+    flex-shrink: 0;
+    position: inherit;
+    margin-left: 163px ;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: -22.04164695739746px 23.878454208374023px 48.9814453125px 0px rgba(0, 0, 0, 0.50);  
+    
+
+}
+
+.clubs p, h3 {
+    padding-left: 15.74px;
+    padding-top: 27.26px;
+    gap: 13px;
+
+}
+
+.clubs p {
+    color: #4F4F4F;
+    font-family: Lato;
+    font-size: 16.783px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 132%; /* 22.154px */
+}   
+
+.clubs h3 {
+    color: #000;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 132%; /* 23.76px */
+}
+
+.friendly  {
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132%; /* 21.12px */
+}
+
+
+
+.what {
+    color: var(--brand-colour, #00ADEE);
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1.32;
+    margin-bottom: 27px;
+}
+
+.main-1 {
+    color: var(--333333, #333);
+    font-family: Lato;
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 1.32;
+    margin-bottom: 27px;
+}
+
+.main-text-1 {
+    color: var(--4-f-4-f-4-f, #4F4F4F);
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 1.44;
+    margin-bottom: 22px;
+}
+
+.anchor {
+    color: var(--brand-colour, #00ADEE);
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 1.32;
+}
