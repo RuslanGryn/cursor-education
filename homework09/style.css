@@ -160,13 +160,14 @@ body {
 }
 
 .container_bg {
+    width: 100%;
     background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%), rgba(255, 255, 255, 0.50);
 }
 
 .container_bg {
     display: flex;
     justify-content: space-between;
-    gap: 15%;
+    gap: 20%;
     position: relative;
     padding-top: 7rem;
 }
@@ -186,6 +187,7 @@ body {
     margin-left: 163px ;
     border-radius: 4px;
     background: #FFF;
+    z-index: 2;
     box-shadow: -22.04164695739746px 23.878454208374023px 48.9814453125px 0px rgba(0, 0, 0, 0.50);  
     
 
@@ -257,4 +259,11 @@ body {
     font-family: Lato;
     font-weight: 700;
     line-height: 1.32;
+}
+
+.ft-match {
+    position: absolute;
+    top: 283px;
+    left: 19.599999999999994rem;
+    z-index: 1;
 }
