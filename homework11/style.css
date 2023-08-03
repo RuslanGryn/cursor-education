@@ -1,6 +1,7 @@
 .header {
     background: #FAFAFA;
     border: 1px solid rgb(207, 202, 202);  
+    justify-content: space-between;
 }
 
 .form .fa-search {
@@ -16,4 +17,107 @@
     top: 13px;
     padding: 2px;
     border-left: 1px solid #d1d5db;
+}
+
+.form-input {
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.form-input:focus {
+
+    box-shadow: none;
+    border: none;
+}
+
+
+
+/* ---------- */
+
+.left-pan {
+    padding-left: 7px;
+}
+
+.left-pan i {
+    padding-left: 10px;
+}
+
+.main {
+    margin-top: 30px;
+}
+
+.btn-primary {
+    width: 97px;
+    height: 29px;
+    text-align: center;
+}
+
+.btn-lg {
+    width: 33px;
+    height: 29px;
+    background-color: #0d6efd;
+}
+
+.btn-outline-primary {
+    border-color: white;
+    width: 33px;
+    height: 29px;
+}
+
+.name_text {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.img {
+    border: 1px solid #DBDBDB;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.posts {
+    color: #262626;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.08;
+    text-decoration: none;
+}
+
+.tagged {
+    color: #8F8F8F;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    text-decoration: none;
+}
+
+.messages::after {
+    content: "5";
+    position: absolute;
+    top: -4px;
+    right: 18px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: white;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+}
+
+.svg_button {
+    position: absolute;
+    top: 45%;
+    left: 42%;
+
 }
