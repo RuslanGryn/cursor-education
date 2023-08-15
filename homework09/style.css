@@ -515,14 +515,15 @@ body {
     display: flex;
     flex-wrap: wrap;
     max-width: 1440px;
-    height: 291px;
+    height: 293px;
     background: #FAFAFA;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: space-around;
 }
 .features_header{
     justify-content: center;
+    align-items: center;
     width: 338px;
     height: 37px;
 }
@@ -533,11 +534,73 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: 132%; 
+    
 }
 
 .features_items  {
-    /* margin-left: 180px; */
+    display: inline-flex;
+    gap: 79px;
+    /* justify-content: space-between; */
+   
+}
+
+/* Section - 6 */
+
+.container__getup {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: nowrap;
     align-items: center;
+}
+
+.getup_text {
+    margin-left: 77px;
+}
+
+.getup_header {
+    color: var(--333333, #333);
+    font-family: Lato;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 132%; 
+    margin-bottom: 35px;
+}
+
+.getup_p {
+    color: var(--4-f-4-f-4-f, #4F4F4F);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 156%; 
+    margin-bottom: 38px;
+}
+.logo__google-section06  {
+    margin-left: 36px;
+}
+.getup_storelogo {
+    margin-bottom: 58px;
+}
+
+/* Footer 7 */
+
+.container__footer {
+    display: inline-flex;
+    max-width: 1440px;
+    max-height: 127px;
+    background: var(--brand-colour, #00ADEE);
+}
+
+.logo__link {
+    width: 480px;
+    height: 127px;
+}
+.footer__link {
+    width: 480px;
+    height: 127px;
+    list-style: none;
+}
+.social__logo {
+    width: 480px;
+    
 }
