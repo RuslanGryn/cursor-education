@@ -160,3 +160,64 @@ h1 {
     box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.10);
     margin-left: 92px;
 }
+
+/* Section 01 */
+
+.explore__up {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.ex_01 {
+    color: rgba(255, 255, 255, 0.13);
+    font-family: Poppins;
+    font-size: 180px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+    margin-left: 93px;
+    float: left;
+}
+.ex_img-get {
+    margin-top: 134px;
+    margin-right: 5px;
+    margin-left: -25px;
+    width: 51px;
+    height: 2px;
+    background: #D3BA74;
+    float: left;
+}
+.ex_get {
+    margin-top: 125px;
+    margin-left: 2px;
+    margin-bottom: 12px;
+    color: #D3BA74;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; 
+    letter-spacing: 3.36px;
+}
+.ex_h3 {
+    /* margin-bottom: 20px; */
+    margin-left: -150px;
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 70px;
+    line-height: 70px; 
+}
+.ex_text {
+    margin-left: 278px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; 
+}
+.explore__down {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
