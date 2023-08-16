@@ -163,6 +163,10 @@ h1 {
 
 /* Section 01 */
 
+.section_01{
+    margin-bottom: 150px;
+}
+
 .explore__up {
     display: flex;
     justify-content: space-between;
@@ -200,7 +204,6 @@ h1 {
     letter-spacing: 3.36px;
 }
 .ex_h3 {
-    /* margin-bottom: 20px; */
     margin-left: -150px;
     color: #FFF;
     font-family: Playfair Display;
@@ -216,7 +219,130 @@ h1 {
     font-weight: 300;
     line-height: 24px; 
 }
+.explore__up-right{
+    margin-right: 92px;
+}
 .explore__down {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Section 02 */
+.container__main-02{
+    display: flex;
+    margin-bottom: 150px;
+    
+}
+.dont__left {
+    margin-left: 92px;
+    margin-right: 20px;
+}
+.dont__right {
+    /* margin-right: 113px; */
+}
+.dont_02 {
+    color: rgba(255, 255, 255, 0.13);
+    font-family: Poppins;
+    font-size: 180px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    float: left; 
+}
+.dont_hiking {
+    margin-top: 125px;
+    margin-bottom: 12px;
+    color: #D3BA74;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 3.36px;
+}
+.dont_h3 {
+    margin-bottom: 30px;
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px; 
+}
+.dont_text {
+    margin-left: 219px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; 
+}
+
+/* Section 03 */
+
+.section_03{
+    margin-bottom: 150px;
+}
+
+.open__up {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+.open_03 {
+    color: rgba(255, 255, 255, 0.13);
+    font-family: Poppins;
+    font-size: 180px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+    margin-left: 93px;
+    float: left;
+}
+.open_img-window {
+    margin-top: 134px;
+    margin-right: 5px;
+    margin-left: -25px;
+    width: 51px;
+    height: 2px;
+    background: #D3BA74;
+    float: left;
+}
+.open_window {
+    margin-top: 125px;
+    margin-left: 2px;
+    margin-bottom: 12px;
+    color: #D3BA74;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; 
+    letter-spacing: 3.36px;
+}
+.open_h3 {
+    margin-left: -150px;
+    margin-bottom: 20px;
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 70px;
+    line-height: 70px; 
+}
+.open_text {
+    margin-left: 278px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; 
+}
+.open__up-right{
+    margin-right: 92px;
+}
+.open__down {
     display: flex;
     gap: 20px;
     justify-content: center;
