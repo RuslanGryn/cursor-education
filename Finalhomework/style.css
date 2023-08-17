@@ -94,7 +94,6 @@ body {
 
 .container_main {
     width: 1440px;
-    /* height: 100vw; */
     background-image: url(./img/background_wrapper.png);
     background-size: cover;
     /* background: linear-gradient(0deg, #0A1E27 0%, rgba(10, 30, 39, 0.40) 42.19%, rgba(10, 30, 39, 0.00) 68.23%); */
